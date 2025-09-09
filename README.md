@@ -19,15 +19,15 @@ Requirements
 Installation
 ------------
 1. Create a virtual environment (recommended)
-   python3 -m venv venv
-   source venv/bin/activate
+  `python3 -m venv venv`
+`source venv/bin/activate`
 
-2. Install requirements
-   pip install -r requirements.txt
+3. Install requirements
+   `pip install -r requirements.txt`
 
 Usage
 -----
-1. Edit `SMTP_SERVER_NAME` in `smtp_honeypot.py` if you wish to change the fake banner hostname.
+1. Edit `SMTP_SERVER_NAME` in `main.py` if you wish to change the fake banner hostname.
 2. Choose a port:
    - Default in the script: 2525 (no root required)
    - To bind to port 25 you must run as root (NOT RECOMMENDED), or set capabilities on python binary.
