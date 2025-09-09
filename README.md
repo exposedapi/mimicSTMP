@@ -1,5 +1,5 @@
 # mimicSTMP
-STMP Honeypot (Python)
+SMTP Honeypot (Python)
 =============
 
 A minimal SMTP honeypot written. The server mimics an SMTP server (EHLO/HELO, MAIL FROM, RCPT TO, DATA)
